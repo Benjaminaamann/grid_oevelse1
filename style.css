@@ -1,0 +1,13 @@
+img {
+  width: 100%;
+}
+.grid_1-1 {
+  display: grid;
+  gap: 20px;
+}
+
+@media (width >= 600px) {
+  .grid_1-1 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
